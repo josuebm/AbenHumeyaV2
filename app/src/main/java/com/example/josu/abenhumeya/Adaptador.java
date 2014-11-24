@@ -59,7 +59,6 @@ public class Adaptador extends ArrayAdapter <Mesa>{
         vh.tv1.setText(mesa(lista.get(position)));
         vh.tv2.setText(comensal(lista.get(position)));
         vh.tv3.setText(lista.get(position).getHora());
-        //vh.iv.setImageBitmap((lista.get(position).getFoto()));
         vh.iv.setImageResource(R.drawable.mesa);
         vh.posicion = position;
         return convertView;

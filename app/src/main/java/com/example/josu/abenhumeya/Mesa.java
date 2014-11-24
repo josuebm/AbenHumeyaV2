@@ -21,6 +21,7 @@ import java.util.Date;
  para orderar y los implementados con Parcelable para poder pasar objetos de este tipo de una Activity a otra. En este caso es destacable que tiene un atributo "pedidos" que es
  un ArrayList de tipo Pedido y el tratamiento es distinto: a la hora de escribirlo utilizo el método writeList() y para leerlo readArrayList() al que le paso el cargador de la
  clase Pedido.*/
+
 public class Mesa implements Comparable <Mesa>, Parcelable{
     
     private int numMesa, numComensal;
