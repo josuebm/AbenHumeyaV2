@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.josu.abenhumeya.TomarNota" >
+    <item android:id="@+id/action_ver_pedido"
+        android:title="@string/action_ver_pedido"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

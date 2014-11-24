@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Nombre de la aplicación-->
+    <string name="app_name">AbenHumeya</string>
+
+    <!--Texto de las tostadas-->
+    <string name="ttEliminado">Deleted</string>
+    <string name="ttAnadido">Added</string>
+
+    <!--Texto de los botones-->
+    <string name="btAceptar">OK</string>
+    <string name="btCancelar">Cancel</string>
+    <string name="btPedir">Order</string>
+    <string name="btConfirmarPedido">Confirm order</string>
+
+    <!--Texto de las opciones de los menús-->
+    <string name="action_anadir">Add table</string>
+    <string name="action_ver_pedido">See order</string>
+    <string name="action_eliminar_mesa">Delete table</string>
+    <string name="action_eliminar_pedido">Delete plate</string>
+    <string name="action_editar">Edit table</string>
+    <string name="action_cargar">Load data</string>
+
+    <!--Texto de los TextView-->
+    <string name="tvMesa">Table number:</string>
+    <string name="tvComensal">Diners number:</string>
+    <string name="tvCategorias">Categories</string>
+    <string name="tvSubcategoria">Plates</string>
+    <string name="tvPedido">Actual order:</string>
+    <string name="tvHora">Arriving time:</string>
+
+    <!--string-array con las categorías-->
+    <string-array name="spCategorias">
+        <item name="1">Drinks</item>
+        <item name="2">Apetizers</item>
+        <item name="3">Salads</item>
+        <item name="4">Meat</item>
+        <item name="5">Fish</item>
+        <item name="6">Pastas</item>
+        <item name="7">Desserts</item>
+    </string-array>
+
+    <!--string-array con las mesas disponibles-->
+    <string-array name="mesas">
+        <item name="1">Table 01</item>
+        <item name="2">Table 02</item>
+        <item name="3">Table 03</item>
+        <item name="4">Table 04</item>
+        <item name="5">Table 05</item>
+        <item name="6">Table 06</item>
+        <item name="7">Table 07</item>
+        <item name="8">Table 08</item>
+        <item name="9">Table 09</item>
+        <item name="10">Table 10</item>
+        <item name="11">Table 11</item>
+        <item name="12">Table 12</item>
+        <item name="13">Table 13</item>
+        <item name="14">Table 14</item>
+        <item name="15">Table 15</item>
+        <item name="16">Table 16</item>
+        <item name="17">Table 17</item>
+        <item name="18">Table 18</item>
+        <item name="19">Table 19</item>
+        <item name="20">Table 20</item>
+        <item name="21">Table 21</item>
+        <item name="22">Table 22</item>
+        <item name="23">Table 23</item>
+        <item name="24">Table 24</item>
+        <item name="25">Table 25</item>
+    </string-array>
+
+    <!--string-array con los posibles comensales-->
+    <string-array name="comensales">
+        <item name="1">1 diner</item>
+        <item name="2">2 diners</item>
+        <item name="3">3 diners</item>
+        <item name="4">4 diners</item>
+        <item name="5">5 diners</item>
+        <item name="6">6 diners</item>
+        <item name="7">7 diners</item>
+        <item name="8">8 diners</item>
+        <item name="9">9 diners</item>
+        <item name="10">10 diners</item>
+        <item name="11">11 diners</item>
+        <item name="12">12 diners</item>
+        <item name="13">13 diners</item>
+        <item name="14">14 diners</item>
+        <item name="15">15 diners</item>
+        <item name="16">16 diners</item>
+    </string-array>
+
+    <!--string-array con las bebidas-->
+    <string-array name="bebidas">
+        <item name="1">Water</item>
+        <item name="2">Cola</item>
+        <item name="3">Cola light</item>
+        <item name="4">Cola zero</item>
+        <item name="5">Orange Aquarius</item>
+        <item name="6">Lemon Aquarius</item>
+        <item name="7">Beer</item>
+        <item name="8">Red wine</item>
+        <item name="9">White wine</item>
+        <item name="10">Botlle water</item>
+        <item name="11">Tankard beer</item>
+        <item name="12">Red wine bottle</item>
+        <item name="13">White wine bottle</item>
+    </string-array>
+
+    <!--string-array con los entrantes-->
+    <string-array name="entrantes">
+        <item name="a">Side-dish of iberian ham</item>
+        <item name="b">Side-dish of sheep cheese</item>
+        <item name="c">Side-dish of warm cheese “Torta del Casar”</item>
+        <item name="d">Broad beans with cured ham</item>
+        <item name="e">Assorted pate</item>
+        <item name="f">Warm cream</item>
+        <item name="g">Tipical salmorejo “aben humeya”</item>
+        <item name="h">Ox carpaccio with pistachio vinaigrette</item>
+        <item name="i">“Burratina” (mozzarella) salad with tomato</item>
+    </string-array>
+
+    <!--string-array con las ensaladas-->
+    <string-array name="ensaladas">
+        <item name="1">Warm chicken salad with date, almonds and orange with bittersweet sause</item>
+        <item name="2">Lamb’s lettuce, fresh cheese, walnut and quince preserve</item>
+        <item name="3">Tataki salmon sald with crounchy vegetables</item>
+        <item name="4">Pear salad with goat cheese and walnuts</item>
+        <item name="5">Tipical fresh salad with minced cod, orange, spring, onion and olives</item>
+        <item name="6">Greek salad with special vinaigrette</item>
+        <item name="7">Tropical salad Aben Humeya</item>
+    </string-array>
+
+    <!--string-array con las carnes-->
+    <string-array name="carnes">
+        <item name="1">Sweet chicken in puff-pastry basmati rice with zaffron and spice</item>
+        <item name="2">Veal gratiné musaka</item>
+        <item name="3">Pork sirloin with cream and chocolate sauce served with potatoes and vegetables</item>
+        <item name="4">Lamb with mint and almond sauce with cus-cus</item>
+        <item name="5">Lamb chop marinated with “robuchon”</item>
+        <item name="6">Grilled ox fillet steak and vegetables</item>
+        <item name="7">Duck maigret with orange</item>
+    </string-array>
+
+    <!--string-array con los pescados-->
+    <string-array name="pescados">
+        <item name="1">Cod with orange and leek sauce</item>
+        <item name="2">Baked salmon with rice and sweet onion</item>
+    </string-array>
+
+    <!--string-array con las pastas-->
+    <string-array name="pastas">
+        <item name="1">Ravioli with spicy sauce and nuts</item>
+        <item name="2">Tagliatelle with “chef” sauce</item>
+        <item name="3">Chicken and vegetables cous-cous</item>
+        <item name="4">Vegetables cous-cous</item>
+    </string-array>
+
+    <!--string-array con la repostería-->
+    <string-array name="reposteria">
+        <item name="1">Typical “Piononos” from Granada</item>
+        <item name="2">Cheese cake “Albayzín"</item>
+        <item name="3">Moorish pastry with date, fig and apple with ice-cream</item>
+        <item name="4">Assorted mousse and sweet creams</item>
+        <item name="5">Chocolate pie and mint in two textures</item>
+        <item name="6">Warm chocolate sponge with ice-cream</item>
+        <item name="7">Sabayon</item>
+        <item name="8">Carrot cake</item>
+        <item name="9">Assorted desserts 4 people</item>
+        <item name="10">Assorted desserts 6 people</item>
+        <item name="11">Lemon sorbet with fresh spearmint</item>
+        <item name="12">Maracuya sorbet</item>
+        <item name="13">Champagne-lemon sorbet</item>
+        <item name="14">Mojito sorbet</item>
+        <item name="15">Squeezed orange juice</item>
+    </string-array>
+
+    <!--Nombre de las distintas activities-->
+    <string name="title_activity_tomar_nota">TakeNote</string>
+    <string name="title_activity_ver_pedido">SeeOrder</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="71dp"
+        android:id="@+id/ivMesa"
+        android:background="#ff000000" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvMesa"
+            android:id="@+id/tvMesa"
+            android:textSize="15sp"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvComensal"
+            android:id="@+id/tvComensal"
+            android:textSize="15sp"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHora"
+            android:text="@string/tvHora"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp" />
+    </LinearLayout>
+</LinearLayout>

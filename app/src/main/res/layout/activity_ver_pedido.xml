@@ -1,0 +1,50 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvMesa"
+        android:id="@+id/tvMesa"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvComensal"
+        android:id="@+id/tvComensal"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvPedido"
+        android:id="@+id/textView"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="364dp"
+        android:id="@+id/lvVerPedido"
+        android:padding="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btConfirmarPedido"
+        android:id="@+id/button"
+        android:layout_gravity="right"
+        android:onClick="confirmarPedido" />
+
+</LinearLayout>
